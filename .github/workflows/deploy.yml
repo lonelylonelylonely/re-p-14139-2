@@ -127,7 +127,7 @@ jobs:
           DEPLOY
           )
 
-          INSTANCE_ID="i-09a98c9b42ca881db"
+          INSTANCE_ID="i-093a7f601399c4849"
           PARAMS=$(jq -n --arg cmd "$SCRIPT" '{"commands":[$cmd]}')
 
           COMMAND_ID=$(aws ssm send-command \
